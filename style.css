@@ -12,4 +12,26 @@
 }
 
 /*Write your CSS rules below!*/
+h1, h2{
+    text-align: center;
+    font-family: "Oswald", "Helvetica Neue";
+    color: #2884C3;
+}
 
+code{
+    color: #CE234C;
+    background-color: lightgray;
+}
+
+.snippet{
+    background-color: lightgray;
+}
+
+#font-practice{
+    font-style: italic;
+    color: green; 
+}
+
+.container{
+    
+}
