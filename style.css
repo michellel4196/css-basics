@@ -12,26 +12,42 @@
 }
 
 /*Write your CSS rules below!*/
-h1, h2{
+
+h1,
+h2 {
     text-align: center;
     font-family: "Oswald", "Helvetica Neue";
     color: #2884C3;
 }
 
-code{
+code {
     color: #CE234C;
     background-color: lightgray;
 }
 
-.snippet{
+.snippet {
     background-color: lightgray;
 }
 
-#font-practice{
+#font-practice {
     font-style: italic;
-    color: green; 
+    color: green;
 }
 
-.container{
-    
+a:link {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #CE234C;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
 }
